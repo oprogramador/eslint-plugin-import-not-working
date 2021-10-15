@@ -14,6 +14,6 @@ module.exports = {
     'import',
   ],
   rules: {
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': ['error', { commonjs: true }],
   },
 };
